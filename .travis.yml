@@ -1,4 +1,4 @@
 before_install:
-	- sudo apt-get install -qq gnat
+ - sudo apt-get install -qq gnat
 language: cpp
 script: gnatmake hello.adb
